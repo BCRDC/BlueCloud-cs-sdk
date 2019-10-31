@@ -9,14 +9,6 @@
 [验证码登录使用文档](https://docs.azure.cn/zh-cn/customer-engagement-fabric/customer-engagement-fabric-login-with-sms-dynamic-code)
 
 
-Azure Customer Engagement Fabric (CEF) is an aggregation service for notifications, authentication & payments services around the various mobile / social platforms in China. It provides a single & consistent interface mapping to multiple providers for app developers to quickly integrate these functions. 
-
-Currently this SDK is mainly for **Social Login** and **One-time-password (OTP)** on mobile devices (IOS and Android).
-
-[Social Login Manual (Chinese)](https://docs.azure.cn/zh-cn/customer-engagement-fabric/customer-engagement-fabric-third-party-login)
-
-[One-Time-Password Manual (Chinese)](https://docs.azure.cn/zh-cn/customer-engagement-fabric/customer-engagement-fabric-login-with-sms-dynamic-code)
-
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
