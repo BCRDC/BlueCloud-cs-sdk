@@ -17,6 +17,7 @@ namespace CcsDemo
         /// </summary>
         [JsonProperty("extend")]
         public string ExtendCode { get; set; }
+
         [JsonProperty("messageBody")]
         public MessageBody MessageBody { get; set; }
     }
@@ -28,6 +29,10 @@ namespace CcsDemo
         /// </summary>
         [JsonProperty("templateName")]
         public string TemplateName { get; set; }
+
+        [JsonProperty("candidateSig")]
+        public string CandidateSignature { get; set; }
+
         /// <summary>
         /// 短信模板参数，和模板中变量一一对应,没有变量则不需要
         /// </summary>

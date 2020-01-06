@@ -20,6 +20,10 @@ namespace CcsDemo
                 requestData.PhoneNumber = new List<string>() { Config._testMobile };
                 requestData.ExtendCode = Config._testExtend;
                 requestData.MessageBody = new MessageBody();
+
+                //  optional
+                requestData.MessageBody.CandidateSignature = "";
+
                 requestData.MessageBody.TemplateName = Config._testTemplateName;
                 requestData.MessageBody.TemplateParam = new Dictionary<string, string>();
 
